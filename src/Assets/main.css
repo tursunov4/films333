@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.show-button{
+  transition:all 0.4s ;
+}
+.wrapper:hover > .show-button{
+  transform: translateY(0);
+}
+.active{
+  color: rgb(28, 23, 23);
+}
